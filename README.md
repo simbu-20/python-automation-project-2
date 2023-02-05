@@ -220,3 +220,73 @@ def click_save(self):
            
  def click_save(self):
         self.driver.find_element(By.XPATH, self.save_button_xpath).click()
+        
+   TEST CASE 9
+   
+    def __init__(self, driver):
+        self.driver = driver
+        time.sleep(20)
+ self.My info_button_xpath = "//href[text()='My info']"
+ self.job_button_xpath = "//href[text()='view my job details']"
+ 
+  def joined date(self,joined date):
+        self.driver.find_element(BY.XPATH,Self.joined date_textbox_xpath).send_keys(04-08-1998)   
+       
+  def job title(self,job title):
+        self.driver.find_element(BY.XPATH,Self.job title_textbox_xpath).send_keys(HR manager)  
+   def job specification(self,job specification):
+        self.driver.find_element(BY.XPATH,Self.job specification_textbox_xpath).send_keys(not defenied)  
+     def job catagory(self,job catagory):
+        self.driver.find_element(BY.XPATH,Self.job catagory_textbox_xpath).send_keys(officials)  
+     def sub unit(self,sub unit):
+        self.driver.find_element(BY.XPATH,Self.sub unit_textbox_xpath).send_keys(human resource)    
+         
+      def location(self,location):
+        self.driver.find_element(BY.XPATH,Self.location_textbox_xpath).send_keys(location)
+    def emp_status(self,emp_status):
+        self.driver.find_element(BY.XPATH,Self.emp_status_textbox_xpath).send_keys(full time)   
+        
+        TEST CASE 10
+        
+        def __init__(self, driver):
+        self.driver = driver
+        time.sleep(20)  
+         self.My info_button_xpath = "//href[text()='My info']"
+         self.job_button_xpath = "//href[text()='view my job details']"
+        self.Terminate_emp_button_xpath = "//span[text()='terminate_emp']" 
+      def click_save(self):
+        self.driver.find_element(By.XPATH, self.save_button_xpath).click()  
+        
+        TEST CASE 11
+        
+      def __init__(self, driver):
+        self.driver = driver
+        time.sleep(20)    
+       def click_activate employment(self):
+        self.driver.find_element(By.XPATH, self.activate employment_button_xpath).click()
+         def click_save(self):
+        self.driver.find_element(By.XPATH, self.save_button_xpath).click()  
+        
+        TEST CASE 12
+        
+     def __init__(self, driver):
+        self.driver = driver
+        time.sleep(20)      
+ self.salary_button_xpath = "//href[text()='salary']"
+ def salary component(self,salary component):
+        self.driver.find_element(BY.XPATH,Self.salary component_textbox_xpath).send_keys(NEFT)
+ def amount(self,amount):
+        self.driver.find_element(BY.XPATH,Self.amount_textbox_xpath).send_keys(20000)
+        def currency(self,currency):
+        self.driver.find_element(BY.XPATH,Self.currency_textbox_xpath).send_keys(INR)
+     def click_save(self):
+        self.driver.find_element(By.XPATH, self.save_button_xpath).click()  
+        
+  TEST CASE 13
+  
+  def __init__(self, driver):
+        self.driver = driver
+        time.sleep(20)
+    self.Tax exemptions_button_xpath = "//href[text()='Tax exemptions']"
+    
+    
